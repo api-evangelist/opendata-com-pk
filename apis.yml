@@ -1,0 +1,58 @@
+aid: opendata-com-pk
+name: Pakistan Open Data
+description: >-
+  Pakistan Open Data is a national government open-data portal for Pakistan running CKAN.
+  It exposes the CKAN catalog API over approximately 1,471 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/opendata-com-pk/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - National Government
+  - Pakistan
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: opendata-com-pk:catalog
+    name: Pakistan Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Pakistan Open Data, covering ~1,471 datasets. Base URL https://opendata.com.pk/api/3/action/.
+    humanURL: https://opendata.com.pk
+    baseURL: https://opendata.com.pk/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://opendata.com.pk
+      - type: x-api-endpoint
+        url: https://opendata.com.pk/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.8.3'
+common:
+  - type: Website
+    url: https://opendata.com.pk
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/opendata-com-pk-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/opendata-com-pk-rate-limits.yml
+  - type: FinOps
+    url: finops/opendata-com-pk-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
