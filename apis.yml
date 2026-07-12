@@ -41,6 +41,8 @@ apis:
       - type: x-ckan-version
         value: '2.8.3'
 common:
+  - type: DomainSecurity
+    url: security/opendata-com-pk-domain-security.yml
   - type: Website
     url: https://opendata.com.pk
   - type: Documentation
