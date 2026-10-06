@@ -38,7 +38,7 @@ tags:
   - National Government
   - Pakistan
 created: '2026-06-07'
-modified: '2026-06-07'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: opendata-com-pk:catalog
@@ -64,6 +64,8 @@ apis:
       - type: x-ckan-version
         value: '2.8.3'
 common:
+  - url: https://opendata.com.pk/blog
+    type: Blog
   - type: DomainSecurity
     url: security/opendata-com-pk-domain-security.yml
   - type: Website
